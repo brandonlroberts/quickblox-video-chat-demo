@@ -9,20 +9,6 @@ import { appStart } from './actionCreators'
 import { colors } from './theme'
 import config from './QBConfig'
 
-const styles = StyleSheet.create({
-  container: {
-    alignItems: 'center',
-    backgroundColor: colors.primary,
-    flex: 1,
-    justifyContent: 'center',
-    width: '100%',
-  },
-  navigatorView: {
-    flex: 1,
-    width: '100%',
-  },
-})
-
 class App extends React.Component {
 
   constructor(props) {
@@ -46,6 +32,20 @@ class App extends React.Component {
   }
 
 }
+
+const styles = StyleSheet.create({
+  container: {
+    alignItems: 'center',
+    backgroundColor: colors.primary,
+    flex: 1,
+    justifyContent: 'center',
+    width: '100%',
+  },
+  navigatorView: {
+    flex: 1,
+    width: '100%',
+  },
+})
 
 const mapStateToProps = null
 

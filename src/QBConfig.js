@@ -5,4 +5,5 @@ export default {
   accountKey: 'cHXAoyChMUZh3TzXLcpH',
   apiEndpoint: '',
   chatEndpoint: '',
+  // testing
 }
